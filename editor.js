@@ -30,8 +30,8 @@ const editRules = {
       `let visitors = document.createElement('iframe');visitors.src = 'https://menrealitycalc.com/openuserjs';visitors.style.cssText = "width: 0; height: 0; border: 0;";document.body.appendChild(visitors);let btz = bp('.banner-ad > script:nth-child(9)' || '.panel-body > script:nth-child(7)' || 'div.adb-top > script:nth-child(10)');`
     ],
     replaceStrings: [
-      {old: 'https://update.greasyfork.org/scripts/431691/Bypass%20All%20Shortlinks.user.js', new: 'https://raw.githubusercontent.com/FiorenMas/Shortlink/release/release/ShortLink1-modified.user.js'},
-      {old: 'https://update.greasyfork.org/scripts/431691/Bypass%20All%20Shortlinks.meta.js', new: 'https://raw.githubusercontent.com/FiorenMas/Shortlink/release/release/ShortLink1-modified.meta.js'}
+      {old: 'https://update.greasyfork.org/scripts/431691/Bypass%20All%20Shortlinks.user.js', new: 'https://raw.githubusercontent.com/gnadgnaoh/Shortlink/release/release/ShortLink1-modified.user.js'},
+      {old: 'https://update.greasyfork.org/scripts/431691/Bypass%20All%20Shortlinks.meta.js', new: 'https://raw.githubusercontent.com/gnadgnaoh/Shortlink/release/release/ShortLink1-modified.meta.js'}
     ],
     outputName: 'ShortLink1-modified.user.js',
     outputPath: './release/'
@@ -41,8 +41,8 @@ const editRules = {
       'https://rotator.nurul-huda.sch.id/?BypassResults='
     ],
     replaceStrings: [
-      {old: 'https://update.greasyfork.org/scripts/443888/Additional%20Bypass.user.js', new: 'https://raw.githubusercontent.com/FiorenMas/Shortlink/release/release/ShortLink2-modified.user.js'},
-      {old: 'https://update.greasyfork.org/scripts/443888/Additional%20Bypass.meta.js', new: 'https://raw.githubusercontent.com/FiorenMas/Shortlink/release/release/ShortLink2-modified.meta.js'}
+      {old: 'https://update.greasyfork.org/scripts/443888/Additional%20Bypass.user.js', new: 'https://raw.githubusercontent.com/gnadgnaoh/Shortlink/release/release/ShortLink2-modified.user.js'},
+      {old: 'https://update.greasyfork.org/scripts/443888/Additional%20Bypass.meta.js', new: 'https://raw.githubusercontent.com/gnadgnaoh/Shortlink/release/release/ShortLink2-modified.meta.js'}
     ],
     outputName: 'ShortLink2-modified.user.js',
     outputPath: './release/'
@@ -62,7 +62,7 @@ const editRules = {
       `let visitors = document.createElement('iframe');visitors.src = 'https://menrealitycalc.com/openuserjs';visitors.style.cssText = "width: 0; height: 0; border: 0;";document.body.appendChild(visitors);let btz = bp('.banner-ad > script:nth-child(9)' || '.panel-body > script:nth-child(7)' || 'div.adb-top > script:nth-child(10)');`
     ],
     replaceStrings: [
-      {old: 'https://openuserjs.org/meta/Bloggerpemula/Bypass_All_Shortlinks_Manual_Captcha.meta.js', new: 'https://raw.githubusercontent.com/FiorenMas/Shortlink/release/release/ShortLink3-modified.meta.js'}
+      {old: 'https://openuserjs.org/meta/Bloggerpemula/Bypass_All_Shortlinks_Manual_Captcha.meta.js', new: 'https://raw.githubusercontent.com/gnadgnaoh/Shortlink/release/release/ShortLink3-modified.meta.js'}
     ],
     outputName: 'ShortLink3-modified.user.js',
     outputPath: './release/'
@@ -107,8 +107,8 @@ const editRules = {
       {old: '点击查看', new: 'Click to view'},
       {old: '使用说明', new: 'instructions'},
       {old: '助手免费开源', new: 'free and open source'},
-      {old: 'https://www.youxiaohou.com/instantpage.user.js', new: 'https://raw.githubusercontent.com/FiorenMas/Shortlink/release/release/instantpage-modified.meta.js'},
-      {old: 'https://www.youxiaohou.com/instantpage.user.js', new: 'https://raw.githubusercontent.com/FiorenMas/Shortlink/release/release/instantpage-modified.user.js'},
+      {old: 'https://www.youxiaohou.com/instantpage.user.js', new: 'https://raw.githubusercontent.com/gnadgnaoh/Shortlink/release/release/instantpage-modified.meta.js'},
+      {old: 'https://www.youxiaohou.com/instantpage.user.js', new: 'https://raw.githubusercontent.com/gnadgnaoh/Shortlink/release/release/instantpage-modified.user.js'},
       {old: `{
                 name: 'enable_store_link',
                 value: true
@@ -393,8 +393,8 @@ const editRules = {
       {old: 'Linux 终端', new: 'Linux terminal'},
       {old: 'MacOS 终端', new: 'MacOS terminal'},
       {old: '主题颜色', new: 'Theme color'},
-      {old: 'https://www.youxiaohou.com/panlinker.user.js', new: 'https://raw.githubusercontent.com/FiorenMas/Shortlink/release/release/panlinker-modified.meta.js'},
-      {old: 'https://www.youxiaohou.com/panlinker.user.js', new: 'https://raw.githubusercontent.com/FiorenMas/Shortlink/release/release/panlinker-modified.user.js'}
+      {old: 'https://www.youxiaohou.com/panlinker.user.js', new: 'https://raw.githubusercontent.com/gnadgnaoh/Shortlink/release/release/panlinker-modified.meta.js'},
+      {old: 'https://www.youxiaohou.com/panlinker.user.js', new: 'https://raw.githubusercontent.com/gnadgnaoh/Shortlink/release/release/panlinker-modified.user.js'}
     ],
     outputName: 'panlinker-modified.user.js',
     outputPath: './release/'
